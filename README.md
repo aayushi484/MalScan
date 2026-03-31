@@ -7,7 +7,10 @@
 ██║╚██╔╝██║██╔══██║██║     ╚════██║██║     ██╔══██║██║╚██╗██║
 ██║ ╚═╝ ██║██║  ██║███████╗███████║╚██████╗██║  ██║██║ ╚████║
 ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
-```                                   
+```
+</div>
+
+---                                   
 # MalScan AI-Assisted Malware Behavior Analyzer
 
 MalScan is a high-performance, professional-grade triage dashboard designed for rapid malware analysis. It bridges the gap between deep local static analysis and multi-engine cloud intelligence, providing a unified, high-confidence risk assessment in seconds.
@@ -158,6 +161,7 @@ streamlit run app.py --server.port 8504
 **Static Test**: Upload a known non-malicious binary (like `calc.exe`) to verify the parsing engine correctly identifies the format and entry points.
 
 ---
+</div>
 
 ## 🎨 UI Design
 MalScan utilizes a **Flat Dark Utility** design philosophy:
