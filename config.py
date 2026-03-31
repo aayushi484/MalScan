@@ -2,7 +2,7 @@ import os
 
 # Hybrid Analysis API Configuration
 # Get your API key from https://www.hybrid-analysis.com/api-details
-API_KEY = os.getenv("HYBRID_ANALYSIS_API_KEY", "xy6p2jzb1aa36ec4qvvqllw699f875abzxb2ds1oe0a7cd22u8j0h3az1e981d03")
+API_KEY = os.getenv("HYBRID_ANALYSIS_API_KEY", "...")
 BASE_URL = "https://www.hybrid-analysis.com/api/v2"
 
 # Scanning Constants
