@@ -10,8 +10,8 @@ MalScan is a professional, high-performance triage dashboard for advanced malwar
 - **Deep Static Engine**: Automatically parses both Windows PE and Linux ELF binaries. Extracts IAT lists, structural sections, entry points, and flags suspicious API calls.
 - **Shannon Entropy Heatmaps**: A visual grid to immediately spot packed or encrypted segments of an executable.
 - **Smart String Extraction**: Uses categorized Regex to segregate normal strings from Network IOCs (IPs/URLs), Paths (Registry/Files), Commands (PowerShell/Bash), and Malicious Keywords.
-- **60/40 Weighted Risk Model**: Synthesizes a final confidence score based on physical file traits (40%) and cloud sandbox consensus (60%).
-- **Flat Premium Dark UI**: No fluff. Built with pure technical utility, `Outfit` typography, and strict functional data.
+- **60/40 Weighted Risk Model**: Synthesizes a final confidence score. **Static Indicators** (40%) include entropy, suspicious IAT imports, and malicious strings. **Cloud Intelligence** (60%) leverages consensus from multiple sandboxes and threat databases.
+- **Flat Premium Dark UI**: No fluff. Built with pure technical utility, `Outfit` typography, and strict functional data visualization.
 
 ## Tools and Technologies
 
@@ -63,7 +63,7 @@ If an API key is missing, MalScan gracefully degrades—it will grey out that pa
 
 Launch the dashboard locally:
 ```bash
-streamlit run app.py --server.port 8503
+streamlit run app.py --server.port 8504
 ```
 
 - Upload any suspect `.exe`, `.dll`, `.elf`, `.bat`, `.ps1`, `.pdf`, or `.doc` file into the sidebar drop-zone.
