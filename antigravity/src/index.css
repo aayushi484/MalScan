@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neo-bg-light text-gray-800 antialiased selection:bg-neo-accent-blue selection:text-white transition-colors duration-300;
+  }
+}

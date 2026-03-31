@@ -1,0 +1,7 @@
+streamlit
+pefile
+pyelftools
+plotly
+requests
+matplotlib
+pandas
