@@ -8,15 +8,15 @@ import os
 # ──────────────────────────────────────────────────────────────────
 HYBRID_ANALYSIS_API_KEY = os.getenv(
     "HYBRID_ANALYSIS_API_KEY",
-    "xy6p2jzb1aa36ec4qvvqllw699f875abzxb2ds1oe0a7cd22u8j0h3az1e981d03"
+    "..."
 )
 VIRUSTOTAL_API_KEY = os.getenv(
     "VIRUSTOTAL_API_KEY",
-    "7ee39ef43f8e798e554f773a4784398162e066eb7e2c0099cce6bd2ea7bb0323"
+    "..."
 )
 URLSCAN_API_KEY = os.getenv(
     "URLSCAN_API_KEY",
-    "019d3315-9aaa-71ab-b2ff-f59f4f66622a"
+    "..."
 )
 
 # ──────────────────────────────────────────────────────────────────
