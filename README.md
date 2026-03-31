@@ -38,7 +38,7 @@ This project was engineered using the following core stack:
 
 ## Installation
 
-1. Clone the repository and navigate into the `antigravity-v2` directory.
+1. Clone the repository and navigate into the `streamlit-dashboard-v2` directory.
 2. Ensure you have Python 3.10+ installed.
 3. Install the required strictly pinned dependencies:
 ```bash

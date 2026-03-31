@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AntigravityLayout = ({ children }) => {
+const DashboardLayout = ({ children }) => {
   return (
     <div className="min-h-screen bg-neo-bg-light text-gray-800 flex items-center justify-center p-6 sm:p-12 overflow-hidden selection:bg-neo-accent-mint selection:text-white transition-colors duration-300">
       <div className="w-full max-w-5xl rounded-[40px] p-2 relative">
@@ -12,4 +12,4 @@ const AntigravityLayout = ({ children }) => {
   );
 };
 
-export default AntigravityLayout;
+export default DashboardLayout;

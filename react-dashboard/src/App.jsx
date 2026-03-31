@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import AntigravityLayout from './components/AntigravityLayout';
+import DashboardLayout from './components/DashboardLayout';
 import NeumorphicCard from './components/NeumorphicCard';
 import NeumorphicButton from './components/NeumorphicButton';
 import NeumorphicInput from './components/NeumorphicInput';
@@ -11,7 +11,7 @@ function App() {
   const [warpSpeed, setWarpSpeed] = useState('');
 
   return (
-    <AntigravityLayout>
+    <DashboardLayout>
       <div className="flex flex-col md:flex-row gap-12">
         {/* Left Sidebar / Quick Actions */}
         <div className="flex md:flex-col gap-6 items-center justify-center">
@@ -44,7 +44,7 @@ function App() {
             className="flex items-center justify-between"
           >
             <div>
-              <h1 className="text-4xl font-bold tracking-tight text-gray-800">Antigravity</h1>
+              <h1 className="text-4xl font-bold tracking-tight text-gray-800">MalScan</h1>
               <p className="text-gray-500 mt-2 font-medium">Zero-G Control Interface</p>
             </div>
           </motion.div>
@@ -114,7 +114,7 @@ function App() {
           </div>
         </div>
       </div>
-    </AntigravityLayout>
+    </DashboardLayout>
   );
 }
 
