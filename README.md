@@ -170,4 +170,4 @@ MalScan utilizes a **Flat Dark Utility** design philosophy:
 - **Philosophy**: Remove all "neumorphic" or floating effects to prioritize data density and professional utility.
 
 ---
-*Created by the MalScan Team.* 🛡️
+*Created by Aayushi R.* 
