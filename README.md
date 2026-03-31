@@ -10,46 +10,32 @@
 - [Disclaimer](#disclaimer)
 
 ## Overview
-MalScan is an advanced malware analysis tool designed to detect, analyze, and mitigate various malware threats across multiple platforms. It provides an intuitive user interface and a powerful backend for efficient analysis.
+MalScan is a powerful tool designed to detect and analyze potential malware in files. It utilizes advanced algorithms and threat intelligence to provide accurate results.
 
 ## Features
-- **Multi-Platform Support**: Works across Windows, macOS, and Linux.
-- **Real-time Analysis**: Provides instant feedback on detected threats.
-- **Detailed Reports**: Generates comprehensive reports on analysis results.
-- **User-Friendly Interface**: Simplified navigation for ease of use.
+- Real-time malware scanning
+- Comprehensive reports on file analysis
+- Integration with various threat intelligence platforms
+- User-friendly interface
 
 ## Architecture
-The architecture of MalScan is designed to be modular, consisting of:
-- **Frontend**: A responsive web application built using React.
-- **Backend**: A RESTful API developed in Node.js.
-- **Database**: Utilizes MongoDB for storing analysis data.
+MalScan is built on a microservices architecture, allowing for easy scalability and maintenance. Each component is responsible for a specific aspect of the scanning process, ensuring a high level of efficiency.
 
 ## Tech Stack
-- **Frontend**: React, CSS, JavaScript
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Testing**: Jest, Mocha
+- Frontend: React
+- Backend: Node.js, Express
+- Database: MongoDB
+- Cloud: AWS
 
 ## Getting Started
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aayushi484/MalScan.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd MalScan
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the application:
-   ```bash
-   npm start
-   ```
+To get started with MalScan, follow these steps:
+1. Clone the repository: `git clone https://github.com/aayushi484/MalScan.git`
+2. Navigate to the project directory: `cd MalScan`
+3. Install dependencies: `npm install`
+4. Run the application: `npm start`
 
 ## Security Information
-Ensure to follow best practices while using MalScan. Avoid uploading sensitive files and always keep the application up to date to mitigate vulnerabilities.
+It is important to keep sensitive information secure. MalScan follows best practices to ensure data security and integrity. Regular updates and security assessments are conducted to protect against vulnerabilities.
 
 ## Disclaimer
-MalScan is provided "as-is" without any warranties or guarantees. Use at your own risk. The developers are not responsible for any damages resulting from its use.
+Please note that while MalScan provides tools for malware detection, it does not guarantee complete protection against all types of malware. Users are advised to implement additional security measures as necessary.
